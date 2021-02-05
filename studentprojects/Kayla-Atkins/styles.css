@@ -1,0 +1,68 @@
+/* navbar */
+li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    
+}
+
+div.content{
+    color: black
+    
+}
+
+
+
+h1 {
+   color: black;
+   font-family: 'Bungee', cursive;
+    font-size: 60px
+}
+
+div {
+    
+    height: 600px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    background-image: url('https://sunbeamwhdh.files.wordpress.com/2020/04/untitled-97.jpg?quality=60&strip=color&w=1024')
+    border: 2px solid pink;
+}
+
+.landing {
+    background-color: orange;
+    height: 400px;
+    text-align: center   
+}
+
+#home-landing {
+    background-image: url('https://www.bridgemi.com/sites/default/files/styles/article_hero_image/public/hero_images/closed-line.jpg?itok=xfsa-3Vh');
+   
+}
+/* content section */
+
+h2 {
+    color: blue;
+}
+.content {
+    border: 2px solid grey
+    
+        
+}
+
+div.container {
+    height: 10px;
+}
+
+div.more-landing {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/VWBW66XpGucckTMepoJACM-320-80.jpg")
+}
+
+
+
+

@@ -1,0 +1,73 @@
+
+
+.navbar {
+    border: 2px solid grey;
+    height: 70px;
+    background-color: #a1cca5ff;
+    font-family: 'Alata', sans-serif;
+    }
+.navbar-item li{
+    list-style-type: none;
+    float: right;
+    margin: 10px;
+    border: 2px solid grey;
+}      
+.image {
+    float: left;
+}
+    
+.content {
+   border: 2px solid grey;
+   background-color: #e5d1d0ff;
+    }
+h1 {
+    color: white; font-family: 'Oswald', sans-serif;
+}
+h2 {
+   font-family: 'Alata', sans-serif; 
+}
+p {
+     color: black; font-family: 'Oswald', sans-serif;
+}
+.landing {
+        height: 400px;
+    border: 3px solid grey;
+}
+.sources {
+    height: 250px;
+    border: 3px solid grey;
+    background-color: #e5d1d0ff;
+}
+.sources li {
+    list-style-type: none;
+    padding: 15px;
+}
+#home-landing {
+    background-image: url(https://images.unsplash.com/photo-1415594445260-63e18261587e?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)   
+}
+#home-landing {
+    background-repeat: no-repeat; background-size: cover;
+}        
+#about-landing {
+    background-image: url('https://images.unsplash.com/photo-1516844113229-18646a422956?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80')
+}
+#about-landing {
+    background-repeat: no-repeat; background-size: cover;
+}
+#more-landing {
+    background-image: url('https://images.unsplash.com/photo-1593078166039-c9878df5c520?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')
+}
+#more-landing {
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+}
+#people-landing {
+    background-image: url('https://images.unsplash.com/uploads/1411160110892ab555b6f/80b0d25e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80')
+}
+#people-landing {
+    background-repeat: no-repeat; background-size: cover
+}
+#resources-landing {
+    background-image: url('https://images.unsplash.com/photo-1506704888326-3b8834edb40a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')
+}
+#resources-landing {
+    background-repeat: no-repeat; background-size: cover

@@ -1,0 +1,147 @@
+/* Test */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.5em;
+    font-family: 'poppins', Arial;
+}
+
+h1 {
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 2px 2px 12px black;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 2px 2px 12px black;
+}
+
+nav {
+    /* background-color: #fff; */
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-logo {
+    width: 200px;
+    margin: 20px 5px 20px 10%;
+}
+
+#navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+}
+
+#home {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#landing-wrapper {
+    display: table;
+    width: 100%;
+    height: 86vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#home-landing {
+    background-image: url('images/Image from iOS (3).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 86vh;
+    margin: 0 auto;
+}
+
+#intro {
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 3% 4% 3% 4%;
+}
+
+.student-project {
+    /* width: 50%; */
+    padding: 2% 2% 2% 5%;
+    text-align: center;
+}
+
+.student-project h3 {
+    font-size: 36px;
+}
+
+.student-project-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 0;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    line-height: 2.5;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    position: relative;
+    font-size: 12px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 3px;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #337ab7;
+}
+
+.student-project-btn:hover {
+    background-color: #47a8fd !important;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+
+.student-project-btn:active {
+    background-color: #47a8fd !important;
+    border: 1px solid transparent;
+}

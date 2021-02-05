@@ -1,0 +1,153 @@
+body {
+    font-family: 'DM Serif Display', serif;
+    background-color:azure;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: center;
+    width: 99%;
+    color: black;
+      text-shadow: 2px 2px white;
+      vertical-align:center;
+    float: center;
+    padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+    font-size: 50px
+}
+        
+h4 {
+font-family: 'Domine', serif;
+    }
+    
+
+
+h2 {
+  height: 70px;
+  background-color: powderblue;
+  width: 99%;
+  border: 5px solid aliceblue;
+  padding: 0px;
+  margin: 5px;
+  vertical-align:center;
+  float: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}  
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+  height: 15px;
+  background-color: none;
+  width: 99%; 
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+    margin: none;
+}
+div {
+  height: 100px;
+  background-color: powderblue;
+  width: 99%;
+  border: 5px solid aliceblue;
+  padding: 0px;
+  margin: 5px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  float:middle;
+    
+}
+
+
+}
+}
+.navigation {
+    text-align: center;
+    vertical-align: middle
+    height: 50px;
+    background-color:powderblue;
+    text-decoration: none;
+    color: skyblue;
+    
+}
+
+.navigation a:hover{
+    color:lightblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3;
+}
+
+li {
+  float: right;
+    background-color: powderblue;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: aliceblue;
+}
+li {
+    background-color: whitesmoke;
+    float: right
+    list-type-style: none:                                                                                                                                                                                                                                                     QA;
+        
+}
+
+
+.landing {
+    height: 500px;
+    border: 3px: black
+}
+
+.nav-container {
+    background-color:aliceblue;
+}
+
+
+
+#about-landing {
+    background-image: url('https://i.pinimg.com/564x/6e/28/12/6e28125a45c2501d4714978df1d52c69.jpg') 
+}
+
+#home-landing {
+    background-image: url('https://metinfo.tc/wp-content/uploads/2020/06/200611100316-cillizza-defund-the-police-super-tease.jpg')
+}
+
+#more-landing {
+    background-image: url('https://www.gannett-cdn.com/presto/2020/06/08/USAT/04092e61-7b05-4c69-b32b-231b55d44b86-AFP_AFP_1T03FF.jpg?crop=2696,1516,x463,y1100&width=2696&height=1516&format=pjpg&auto=webp')
+}
+
+#people-landing {
+    background-image: url('https://www.benjerry.com/files/live/sites/systemsite/files/whats-new/defund-police/DRV_DefundThePolice_Illustration_1200x630.jpg')    
+}
+
+#resources-landing {
+    background-image: url('https://amp.businessinsider.com/images/5224bccb69bedde85bfd4625-750-561.jpg')    
+}
+
+        
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+  height: 300
+}
+
+
+

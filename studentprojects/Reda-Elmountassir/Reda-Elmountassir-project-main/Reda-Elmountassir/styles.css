@@ -1,0 +1,385 @@
+/*|| Defaults*/
+* {
+    margin: 0;
+}
+body {
+    background-image: url(Background_Noise.jpeg);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: Uppercase;
+}
+h1 {
+    font-size: 90px;
+    color: #fcfc62;
+}
+h2, h3, h4, h5, h6 {
+    color: #db504a;
+    text-decoration: underline solid #fcfc62;
+}
+p, ul li {
+    color: #333333;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+}
+a {
+    font-family: 'Merriweather', serif;
+}
+*::selection {
+    background-color: gold;
+}
+
+img {
+    object-fit: cover;
+    transition: transform .2s ease-in-out;
+}
+img:hover {
+    transform: translatey(-30px);
+}
+
+
+
+/*|| Landing Sections*/
+div.landing {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    margin-bottom: 3%;
+}
+div.landing-text {
+    border-bottom: 7px solid WhiteSmoke;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    animation: fade-in-anim .7s ease-in;
+}
+div.landing-text p {
+    font-size: 30px;
+}
+#home-text {
+    padding: 20px 15px;
+    margin-left: 30px;
+    width: 40%;
+    top: 40%;
+    text-align: left;
+    left: 0;
+    transform: translateY(-50%);
+}
+#home-text h2, #home-text h3, #home-text h4, #home-text h5, #home-text h6, #home-text p {
+    color: WhiteSmoke;
+}
+#home-image {
+    background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(https://static01.nyt.com/images/2015/06/25/business/25UP-Leonhardt-SUB/25UP-Leonhardt-SUB-superJumbo.jpg);
+}
+
+#more-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(https://dnyuz.com/wp-content/uploads/2020/04/Data-Suggests-Many-New-York-City-Neighborhoods-Hardest-Hit-by.jpg);
+}
+#people-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(https://med.stanford.edu/content/dam/sm-news/images/2020/06/WHO-mask.png);
+}
+#people-text {
+    margin-left: 30px;
+    width: 40%;
+    top: 77%;
+    text-align: left;
+    left: 0;
+    transform: translateY(-50%);
+}
+#resources-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)), url(Coronavirus_Image.jpeg);
+}
+
+
+
+
+
+/*|| FUN*/
+#FUNLANDING {
+    background-image: linear-gradient(to right, rgb(219,80,74), rgb(0,51,143), rgb(252,252,98));
+    background-size: 500%;
+    animation: background-move-anim 20s ease-in-out infinite alternate;
+}
+#FUNLANDINGTEXT {
+    background-color: WhiteSmoke;
+    border-radius: 8px;
+    padding: 0 10%;
+}
+#FUNLANDINGTEXT h1, #FUNLANDINGTEXT p {
+    background-image: linear-gradient(to right, rgb(219, 80, 74), rgb(0 , 51, 143), rgb(252, 252, 98));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: background-move-anim 20s ease-in-out infinite alternate;
+    margin: 10% 0;
+    position: relative;
+}
+#FUNLANDINGTEXT h1:after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #bfc0c0;
+    animation: scale-in-anim .7s ease-in-out;
+}
+h1.FUNTEXT, h2.FUNTEXT, h3.FUNTEXT, h4.FUNTEXT, h6.FUNTEXT, p.FUNTEXT {
+    animation: text-color-anim 20s ease-in-out infinite alternate;
+    text-decoration-color: #bfc0c0;
+}
+.FUNCONTAINER {
+    border: 7px solid;
+    margin: 10px 25px;
+    animation: border-color-anim 20s ease-in-out infinite alternate;
+}
+.FUNCONTAINER h2 {
+    font-size: 64px;
+    padding: 0 75px;
+}
+
+
+
+/*|| Resource List*/
+#resources {
+    list-style: none;
+}
+#resources a {
+    display: block;
+    border-radius: 4px;
+    background-color: #bfc0c0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 65%;
+    margin: 10px auto;
+    transition: all 0.5s;
+} 
+#resources a {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#resources a:hover, #resources a:focus {
+    transform: scale(1.2);
+    background-color: rgb(53, 59, 60);
+}
+#resources a:active {
+    background-color: black;
+    transform: scale(.95);
+}
+
+
+
+
+
+/*|| Navigation Bar*/
+div.navigation {
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    background-color: rgba(53, 59, 60, .70);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    z-index: 100;
+}
+div.navigation a {
+    float: left;
+    font-weight: bold;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: WhiteSmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div.navigation ul li {
+    list-style-type: none;
+    float: right;
+}
+div.navigation a:after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: WhiteSmoke;
+    transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    visibility: hidden;
+}
+div.navigation a:hover:after, div.navigation a:focus:after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: WhiteSmoke;
+    visibility: visible;
+}
+div.navigation a:hover, div.navigation a:focus {
+    color: #db504a;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s;
+}
+div.navigation a:active {
+    background-color: #bfc0c0;
+    transition: all ease-in-out .1s;
+    -webkit-transition: all ease-in-out .1s;
+}
+div.navigation a.active {
+    background-color: #db504a;
+    color: WhiteSmoke;
+}
+
+
+
+
+
+/*|| Containers*/
+.container {
+    padding: 2% 2%;
+    margin: 2% 1%;
+}
+.images-container {
+    margin: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-items: stretch;
+    align-content: stretch;
+}
+.dark {
+    background-color: #bfc0c0;
+    border-radius: 25px;
+}
+.container.left {
+    text-align: left;
+}
+.container.right {
+    text-align: right;
+}
+.container.center {
+    text-align: center;
+    margin: auto 15%;
+}
+.images-container.left {
+    justify-content: left;
+}
+.images-container.right {
+    justify-content: right;
+    flex-flow: row reverse;
+}
+
+
+
+/*|| Extra Classes & IDs*/
+.shadow {
+    box-shadow: 15px 15px 17px 0 rgba(0,0,0,.25);
+}
+#main-statement {
+    font-size: 24px;
+    margin: 4.5% 0;
+    padding: 3% 3%;
+    transition: transform .75s ease-in-out;
+}
+#main-statement:after, #main-statement:before {
+    content: '';
+    width: 20%;
+    border-bottom: 2px solid #F16A70;
+    display: block;
+    margin: 25px auto;
+    transition: width .75s ease-in-out;
+}
+#main-statement:hover, #main-statement:focus {
+    transform: scale(1.25);
+}
+#main-statement:hover:after, #main-statement:hover:before, #main-statement:focus:after, #main-statement:focus:before {
+    width: 100%;
+    background-color: 
+}
+ul.card-row {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+} 
+li.card {
+    background-color: #bfc0c0;
+    margin: 2% 0;
+    transition: transform .2s ease-in-out;
+    border-radius: 8px;
+}
+li.card:hover, li.card:focus{
+    transform: scale(1.1);
+    z-index: 2;
+}
+li.card img {
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    filter: brightness(80%);
+}
+li.card img:hover, li.card img:focus {
+    transform: none;
+}
+li.card div {
+    padding: 16px;
+}
+
+
+
+
+/*|| Animations*/
+@keyframes hover-anim {
+    from { transform: translatey(7px); }
+    to { transform: translatey(-7px); }
+}
+@keyframes fade-in-anim {
+    from { opacity: 0; }
+    to { opacity: 100%; }
+}
+@keyframes background-move-anim {
+    from { background-position: left; }
+    to { background-position: right; }
+}
+@keyframes border-color-anim {
+    0% {
+        border-color: rgb(219, 80, 74);
+    }
+    50% {
+        border-color: rgb(0 , 51, 143);
+    }
+    100% {
+        border-color: rgb(252, 252, 98);
+    }
+}
+@keyframes text-color-anim {
+    0% {
+        color: rgb(219, 80, 74);
+    }
+    50% {
+        color: rgb(0 , 51, 143);
+    }
+    100% {
+        color: rgb(252, 252, 98);
+    }
+}
+@keyframes scale-in-anim {
+    from {  transform: scalex(0); }
+    to { transform: scalex(1); }
+}
+@keyframes fly-in-anim {
+    from { transform: translatey(-10px); }
+    to { transform: translatey(20px); }
+}
