@@ -63,6 +63,7 @@ nav a {
     background-color: #fff !important;
     transition: background-color 200ms linear;
     box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+    z-index: 1000;
 }
 
 #home {
@@ -144,5 +145,4 @@ nav a {
 .student-project-btn:active {
     background-color: #47a8fd !important;
     border: 1px solid transparent;
-    z-index: 1000;
 }
