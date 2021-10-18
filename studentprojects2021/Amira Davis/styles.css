@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+div {
+    background-color:lightblue
+}
+
+p {
+    color: Black
+}
+
+#resources-landing {
+    height: 70vh;
+    background-image: url('');
+    text-align: ;
+}
+
+#about-landing {
+    height: 70vh;
+    background-image: url('');
+    text-align: ;
+}
+
+#landing-section {
+    background-color: pink;
+    height: 100%;
+    border: solid purple 5px;
+    padding: 40px;
+}
+}
+
+#home-landing {
+    height: 30vh;
+    background-image: url('');
+    text-align: ;
+}
+
+#learning-landing {
+    background-color: pink;
+    height: 100%;
+    border: solid blue 2px;
+    padding: 40px;
+}
+
+#people-landing {
+    height: 80vh;
+    background-image: url('');
+    text-align: ;
+}
+
+#hobbies {
+    background-image: url('');
+    height: 70vh;
+    text-align: ;
+}
+
+#Learn-landing {
+    background-color: blue;
+    height: 100%;
+    border: solid blue 2px;
+    padding: 40px;
+}

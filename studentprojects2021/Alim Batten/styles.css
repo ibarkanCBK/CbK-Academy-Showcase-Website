@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+    background-color:yellow;
+}
+.landing-section {
+    background-color:red;
+    height: 100%;
+    border: solid black 2px; 
+    padding:40px;
+}
+#home-landing {
+    height:100% ;
+    background-image: url('https://gamequitters.com/wp-content/uploads/VideoGameAddiction-15-20-20-scaled.jpg');
+    text-align:center;
+}
+#learn-landing {
+    height:100% ;
+    background-image: url('https://cdn.vox-cdn.com/thumbor/zylLDPoqHxA1prVTJJ8EenW-B_Y=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13601737/VIDEOGAME_ADDICTION.jpg');
+    text-align:center;
+}
+#people-landing {
+    height:100% ;
+    background-image: url('https://media.npr.org/assets/img/2019/05/28/gettyimages-176426057_wide-3037cfb10504f402b872760fbf2e2cd955b9a4fa-s800-c85.jpg');
+    text-align:center;
+}
+#resources-landing {
+    height:100% ;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBeHPhPU5mNz5n-zi8Tlubd_3EW2dK811bXw&usqp=CAU');
+    text-align:center;
+}
+#about-landing {
+    height:100% ;
+    background-image: url('https://beachsideteen.com/wp-content/uploads/2019/09/Video-Games-Addiction-Beachside-1024x657.jpg');
+    text-align:center;
+}
+#basketball-picture {
+    height:56%;
+    width:12%;
+}
+.navigation-bar{
+background-color:red;
+height:100%
+padding:40px;
+}
+#biography {background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel=stylesheet href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto&display=swap&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <title>Education</title>
+</head>
+
+<body>
+    <header>
+        <img src=logo.png alt="Education" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn More</a></li>
+                <li><a href="people.html">People Affected</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="landing-section" id="home-landing">
+            <div class="title">The Solution to Poverty</div>
+        </div>
+        <section class="content-container" id="mission-statement">
+            <h1 class="center">Education</h1>
+            <p class="center">Poverty in Philadelphia is a widespread issue. People in poverty have limited access to basic needs. Families are trapped in the cycle of poverty: kids grow up without resources so they end up being in poverty as well. <b class="white">The way to break out of this cycle is through improvements in education.</b></p>
+        </section>
+        <section class="content-container" id="stat">
+            <!--js for doughnut chart from amcharts-->
+            <script>          
+			am4core.ready(function() {
+
+            am4core.useTheme(am4themes_animated);
+
+            var chart = am4core.create("doughnut-chart", am4charts.PieChart);
+
+            chart.data = [ {
+                "income": "50%",
+                "students": 11000000
+              
+            }, {
+                "income": "<50%",
+                "students": 73000000
+            } ];
+
+            chart.innerRadius = am4core.percent(50);
+
+            var pieSeries = chart.series.push(new am4charts.PieSeries());
+            pieSeries.dataFields.value = "students";
+            pieSeries.dataFields.category = "income";
+            pieSeries.slices.template.stroke = am4core.color("#fff");
+            pieSeries.slices.template.strokeWidth = 2;
+            pieSeries.slices.template.strokeOpacity = 1;
+
+            pieSeries.hiddenState.properties.opacity = 1;
+            pieSeries.hiddenState.properties.endAngle = -90;
+            pieSeries.hiddenState.properties.startAngle = -90;
+
+            });
+		    </script>
+            <div id="doughnut-chart"></div>
+            <div class="fact">
+                <h1 class="center" id="percent">13%</h1>
+                <h2 class="center">of students are 50% below the federal poverty line</h2>
+            </div>
+        </section>
+        <section class="content-container" id="key-facts">
+            <h1 class="center">Key Facts</h1>
+            <ul>
+                <li>
+                    <div class="fact-stat">10%</div>
+                    <div>of youth from low-income families graduate from a 4-year college compared to <b>28%</b> of youth from middle-income and <b>50%</b> from high-income</div>
+                </li>
+                <li>
+                    <div class="fact-stat">0.33%-3.5%</div>
+                    <div>increase in income/year during adulthood with <b>high-quality early childhood education programs</b></div>
+                </li>
+                <li>
+                    <div class="fact-stat">12%</div>
+                    <div>of high school dropouts are <b>unemployed</b></div>
+                </li>
+                <li>
+                    <div class="fact-stat">8x</div>
+                    <div>more likely to commit crimes and serve prison time when you <b>drop out of high school</b></div>
+                </li>
+            </ul>
+        </section>
+        <section class="content-container" id="learn-more-link">
+            <a class="learn-more-button" href="learn.html">Learn More</a>
+        </section>
+    </main>
+</body>
+
+</html>

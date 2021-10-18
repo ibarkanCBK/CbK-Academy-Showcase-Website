@@ -1,0 +1,54 @@
+h1 {
+    color: red;
+    font-family: 'Hahmlet', serif;
+    padding 0 100px;
+}
+
+
+.landing-section {
+    width: 100vw;
+    height: 80vh;
+    border:1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+
+#home-landing {
+   background-image: url("https://images.firstpost.com/wp-content/uploads/2021/02/1280px-Water_pollution_due_to_domestic_garbage_at_RK_Beach_02-1.jpg");
+   background-size: 100% 100%;
+}
+
+
+#about-landing {
+    background-image: url("https://previews.123rf.com/images/chudtsankov/chudtsankov1005/chudtsankov100500036/6905205-pencil-cartoon-character-waving-a-greeting.jpg");
+   background-size: 100% 100%;
+}
+
+#people-landing {
+    background-image: url("https://img.freepik.com/free-vector/group-people-illustration-set_52683-33806.jpg?size=626&ext=jpg");
+    background-size: 100% 100%;
+}
+
+#learn-landing {
+   background-image: url("https://thumbs.dreamstime.com/z/learn-more-d-people-man-person-text-36498644.jpg");
+   background-size: 100% 100%;
+}
+
+
+#resources-landing {
+    background-image: url ("https://image.shutterstock.com/image-vector/useful-links-keyboard-button-business-260nw-318707972.jpg");
+    background-size: 100% 100%
+styles.css
+}
+
+
+.key-facts {
+    background-color:lightcyan
+    
+}
+
+
+
+
+

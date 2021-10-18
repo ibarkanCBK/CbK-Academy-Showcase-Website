@@ -1,0 +1,89 @@
+body{
+    margin:inherit;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    text-align:center;
+    text-shadow: 0 0 5px #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+}
+.landing-section {
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    height: 700px;
+    border: 5px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:10px;
+}
+#home-landing {
+    background-image: url('https://images.ctfassets.net/u4vv676b8z52/585kxq1UzWsFcUEG1HOSu1/0fb8b6f499b9d3e30fff37ea8016c8f4/hand-crushes-cigarettes-1200x630.jpg?fm=jpg&q=80');
+}
+#about-landing {
+    background-image: url('https://images.theconversation.com/files/181262/original/file-20170807-25565-z53dol.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&h=540&fit=crop&dpr=1');
+}
+#people-landing {
+    background-position-y: -400px;
+    background-image: url('https://thumbs.dreamstime.com/z/woman-hand-holding-card-word-please-don-t-smoke-isolated-blue-background-studio-shot-respect-personal-rights-woman-156922656.jpg');
+}
+#learn-landing {
+    background-position-y: -100px;
+    background-image: url('https://www.verywellmind.com/thmb/OX99I6L-BRNkD-5oCRDKhzdVV6E=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-939313594-6d2d94f63cb6443cbc0f8640c52e9028.jpg');
+}
+#resources-landing {
+    background-image: url('https://media.istockphoto.com/vectors/stop-smoking-vector-id485941566?k=6&m=485941566&s=612x612&w=0&h=4S8UPE8D2rk8jIA_m8X3B_6r63ZZbtgmyM7O45eSDrE=');
+}
+.navigation-bar{
+    height: 100px;
+    background-color: yellow;
+    padding: 5px;
+    position:sticky;
+    top:0;
+}
+.navigation-bar a{
+    color:black;
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    padding: 5px;
+    margin:10px;
+    border:solid 5px brown;
+    position:relative;
+    bottom:30px;
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: 90px;  
+    border:5px solid black;
+}
+.content-container {
+    padding:10px ;
+    margin: 10px;
+    border:solid black;
+    color: black;
+    backround-color: yellow;
+    font-size:30px;
+    text-align: right;
+    
+}
+.content-container h2 {
+    font-size: 30px
+}
+.content-container img {
+    float:right
+}
+    
+#biography {
+   
+}
+#hobbies { 
+    
+}
+#favorites { 
+    
+}

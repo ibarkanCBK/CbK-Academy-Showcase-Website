@@ -1,0 +1,158 @@
+h1 {
+    color: green;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    padding: 0 10px;
+}
+
+h2 {
+    color: lightgreen;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    padding: 0 10px;
+}
+
+div {
+    background-color: skyblue;
+}
+
+.landing-section {
+    background-color: lightcyan;
+    width: windowframe;
+    height: 80vh;
+    padding: 40px;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-landing {
+    background-image: url("assets/Internet-1.jpeg");
+    height: 70vh;
+    width: windowframe;
+    text-align: left;
+    border: 2px solid black;
+}
+
+#about-landing {
+    background-image: url("assets/about-me.jpeg");
+    height: 40vh;
+    width: windowframe;
+    text-align: left;
+    border: 2px solid black;
+}
+
+#learn-landing {
+    background-image: url("assets/no-internet.jpeg");
+    height: 70vh;
+    width: windowframe;
+    text-align: left;
+    border: 2px solid black;
+}
+
+#people-landing {
+    background-image: url("assets/yogg.jpeg");
+    height: 80vh;
+    width: windowframe;
+    text-align: left;
+    border: 2px solid black;
+}
+
+#resources-landing {
+    background-image: url("assets/itch.jpeg");
+    height: 70vh;
+    width: windowframe;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.navigation-bar {
+    Background-color: black;
+    height: 4vh;
+    width: windowframe;
+    padding: 20px;
+}
+
+.navigation-bar a {
+    color: yellow;
+    font-family: 'Georama', sans-serif;
+    font-size: 17px;
+    padding: 20px margin: 25px;
+    border: 2px solid black;
+}
+
+.content-container {
+    height: 100vh;
+    width: windowframe;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.content-bar {
+    height: 30vh;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.content-space {
+    height: 75vh;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.content-space2 {
+    height: 35vh;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.content-space3 {
+    height: 70vh;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.content-space4 {
+    height: 40vh;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.content-space5 {
+    height: 77vh;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0px;
+    background-color: skyblue;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}

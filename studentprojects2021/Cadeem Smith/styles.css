@@ -1,0 +1,48 @@
+h1 {
+    font-family: 'STIX Two Math', serif;
+}
+
+p {
+    color:green;
+}
+
+div {
+    background-color: green;
+}
+
+.landing-section {
+    background-color: blue;
+    height: 100%;
+    border: solid black 2px;
+    padding: 40px;
+}
+
+#home-landing {
+    height: ;
+    background-image: url('');
+    text-align: ;
+}
+
+#learn-landing {
+    height: ;
+    background-image: url('');
+    text-align: ;
+}
+
+#people-landing {
+    height: ;
+    background-image: url('');
+    text-align: ;
+}
+
+#resources-landing {
+    height: ;
+    background-image: url('');
+    text-align: ;
+}
+
+#about-landing {
+    height: 100%;
+    background-image: url('');
+    text-align: ;
+}

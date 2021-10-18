@@ -1,0 +1,506 @@
+@font-face {
+    font-family: 'Heading Pro Bold';
+    src: url('HeadingPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Heading Pro Regular';
+    src: url('HeadingPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Heading Pro Regular';
+    color: #FEFFFF;
+    padding: 0px 0px 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: 'Proxima Nova';
+    color: #EEEFEF;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    font-kerning: auto;
+    padding-bottom: 175px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Proxima Nova';
+    padding: 0;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Proxima Nova';
+    color: #DEF2F1;
+    margin: 5px 0px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+b {
+    color: #17252A;
+    font-weight: bold;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3AAFA9;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    margin: 0px 60px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+}
+
+nav li a {
+    transition: .3s;
+    color: #FEFFFF;
+}
+
+nav li a:hover {
+    color: #DEF2F1;
+}
+
+.title {
+    margin: 0px 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.landing-section {
+    width: auto;
+    height: auto;
+    border: solid black 0px;
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-height: 1000px;
+    font-family: 'Heading Pro Bold';
+    font-size: 150px;
+    color: #FEFFFF;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+/*doughnut chart*/
+.fact {
+    background-color: #339994;
+    padding: 80px;
+}
+
+.fact-stat {
+    font-family: 'Heading Pro Regular';
+    color: #17252A;
+    font-size: 120px;
+    line-height: 0px;
+    padding-right: 20px;
+}
+
+/*link to learn more*/
+.learn-more-button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 36px;
+    font-family: 'Oxygen';
+    font-weight: thin;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .48em 1.12em;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.learn-more-button:hover,
+.learn-more-button:focus {
+    color: black;
+    outline: 0;
+    box-shadow: 0 0 40px 40px white inset;
+}
+
+/*cycle of poverty*/
+.cycle-number {
+    display: flex;
+    padding-top: 300px;
+    padding-left: 1450px;
+    padding-bottom: 500px;
+    flex: wrap;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.cycle-number h2 {
+    font-family: 'Roboto';
+    font-size: 100px;
+    padding-bottom: 0px;
+    color: #393950;
+    padding-top: 0px;
+}
+}
+
+.cycle-number p {
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*at-risk student information*/
+.information1 {
+    margin-right: 100px;
+}
+
+/*slideshow for about me. some css from w3schools*/
+.favorites h1,
+.hobbies h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.favorites h2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00E0D4;
+    font-size: 40px;
+    text-align: center;
+}
+
+.favorites img,
+.hobbies img {
+    vertical-align: middle;
+    filter: blur(2px);
+}
+
+.slideshow-container {
+    min-height: 500px;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #3AAFA9;
+    color: black;
+}
+
+#mission-statement {
+    background-color: #17252A;
+}
+
+/*doughnut chart*/
+#stat {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0px 0px;
+    background-color: #3AAFA9;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+/*key facts big number*/
+#percent {
+    font-family: 'Heading Pro Bold';
+    font-size: 225px;
+    padding: 200px 0px 0px;
+    margin: 0px 0px;
+    transform: translateZ(0);
+}
+
+/*doughnut-chart font*/
+#doughnut-chart {
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+#key-facts {
+    margin: 0px 200px;
+}
+
+#key-facts h1 {
+    font-size: 130px;
+}
+
+#key-facts li {
+    font-family: 'Proxima Nova';
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 100px;
+}
+
+#learn-more-link {
+    background-image: url('https://www.habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cycle {
+    background-image: url(cycletransparent2.png);
+    background-attachment: fixed;
+    height: 5000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#at-risk-students {
+    padding-top: 0px;
+    padding-left: 200px;
+    margin: 0px;
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+}
+
+#at-risk-students img {
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    object-position: -1500px 0px;
+}
+
+#at-risk-students h1 {
+    padding-top: 100px;
+}
+
+#at-risk-students p {
+    margin: 5px 0px;
+}
+
+#at-risk-students ul {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    color: #DEF2F1;
+    list-style-type: disc;
+}
+
+#at-risk-students ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#how-education-can-help h1 {
+    padding-bottom: 400px;
+}
+
+#purple {
+    color: #393950;
+}
+
+#green {
+    color: #a9c500;
+}
+
+#yellow {
+    color: #ffd741;
+}
+
+#orange {
+    color: #f3591f;
+}
+
+#right {
+    padding-left: 1450px;
+}
+
+#left {
+    padding-left: 50px;
+    margin-right: 1450px;
+}
+
+/*people affected*/
+#people {
+    display: flex;
+    margin: 120px;
+    padding-bottom: 0px;
+}
+
+#people div {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 2000px;
+}
+
+#people p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#people img {
+    width: 30%;
+    height: auto;
+}
+
+#family {
+    width: 33.525110227%;
+}
+
+#seondlang {
+    width: 40.763151137%;
+}
+
+#disabled {
+    width: 33.237444886%;
+}
+
+#sources {
+    font-family: 'Proxima Nova';
+    color: white;
+    font-size: 45px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0px 200px;
+    text-decoration: none;
+}
+
+#sources lia:link {
+    color: white;
+}
+
+#sources li a:visted {
+    color: #17252A;
+}
+
+#sources li a:hover {
+    color: #f5f5f5;
+}
+
+#sources li a:active {
+    color: #F5F5DD;
+}
+
+#home-landing {
+    height: auto;
+    background-image: url('https://www.thebalancecareers.com/thmb/3TXSZvKKQXcWu3Zu3qU8ag158MU=/3864x2577/filters:fill(auto,1)/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg');
+    text-align: center;
+}
+
+#learn-landing {
+    height: auto;
+    background-image: url('https://www.habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg');
+    text-align: center;
+}
+
+#people-landing {
+    height: auto;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/52d6cb6be4b0b5fc69b8d205/1393022001414-KJTMQQ3VAUQ8Z0WOTN3O/education-background-checks.jpg?format=2500w');
+    text-align: center;
+}
+
+#resources-landing {
+    height: auto;
+    background-image: url('https://content.thriveglobal.com/wp-content/uploads/2017/10/GettyImages-1059602932.jpg');
+    text-align: auto;
+}
+
+#about-landing {
+    height: auto;
+    background-image: url('https://wallpaperaccess.com/full/2691.jpg');
+    text-align: auto;
+}

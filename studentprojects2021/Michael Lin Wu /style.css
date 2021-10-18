@@ -1,0 +1,135 @@
+h1 {
+    color: black
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+font-family: 'Roboto', sans-serif;
+    text-transform:capitalize;
+}
+
+p {
+    color: black;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-size:25px;
+}
+
+div {
+   
+     background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(102,179,144,1) 0%, rgba(69,191,215,1) 40%);
+     border: ridge black 1px;
+
+    
+  
+}
+
+.landing-section {
+    background-color: orange;
+    height: 100%;
+    border: solid black 2px;
+    padding: 40px;
+}
+
+#home-landing {
+    height: 70vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqWHqqRZRldOVpE6Ne4l3pIRDPXxA8F-58hEd9e42e8VrFWEjOlR83ZgKN_92u7JCrtTw&usqp=CAU');
+    text-align: center;
+   
+    background-size: 100% 100%
+}
+
+#learn-landing {
+    height:70vh;
+    background-image: url('https://media.edutopia.org/styles/responsive_2880px_16x9/s3/masters/d7_images/cover_media/rr-bullying-620x349-01.png');
+    text-align: center;
+   
+    background-size: 100% 100%
+}
+
+#people-landing {
+    height: 70vh;
+    background-image: url('https://inside.k12albemarle.org/dept/instruction/comengage/comrel/PublishingImages/bullying.jpg');
+    text-align: center;
+    
+    background-size: 100% 100%
+}
+
+#resources-landing {
+    height: 70vh;
+    background-image: url('https://extendednotesimages.s3.amazonaws.com/channel_images/786/bullies_main__800x400.jpg');
+    text-align: center;
+    
+    background-size: 100% 100%
+}
+
+#about-landing {
+    height: 70vh;
+    background-image: url('https://images.unsplash.com/photo-1523712900580-a5cc2e0112ed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    text-align: center;
+    
+    background-size: 100% 100%
+}
+.content-container{
+    border: ridge black 1px;
+}
+#problem{
+    
+}
+#fact{
+    
+}
+.navigation-bar {
+    width:auto;
+    height: auto;
+    margin:auto;
+   text-align: center;
+
+}
+body{
+ 
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav li{
+    display:inline-block;
+    margin-left:70px;
+    padding-top:10px;
+    position:relative;
+   
+} 
+nav a{
+    text-decoration:none;
+    font-size:17px;
+    color: black;
+}
+ 
+nav a:hover{
+    color:aqua;
+    font-size:20px;
+    text-shadow: 2px 2px #FF0000;
+} 
+
+#biography{
+   display:center;
+}
+#hobbies{
+
+    
+   
+
+    
+ }
+
+
+
+   
+}
+#favorites{
+    
+    
+}
+li{
+    font-size: 20px;
+}

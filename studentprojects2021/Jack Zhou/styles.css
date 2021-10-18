@@ -1,0 +1,292 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #bfbfbf;
+    padding: 100px;
+    font-size: 56px;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+h2 {
+    font-family: 'STIX Two Math', serif;
+    color: #F1F5F2;
+    text-align: center;
+}
+
+p {
+    font-family: 'STIX Two Math', serif;
+    color: #F1F5F2;
+}
+
+#biography {
+    text-align: center;
+}
+
+#problem-statement {
+    text-align: center
+}
+
+#learn-paragraph1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#learn-paragraph2 {
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    border: solid black 1px;
+}
+
+.landing-section {
+    width: 100%;
+    height: 100%;
+    border: solid black 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-landing {
+    height: 60vh;
+    width: auto;
+    background-image: url('https://images.wsj.net/im-94560?width=1280&size=1.77777778');
+    text-align: center;
+    background-position-y: -400px;
+}
+
+#learn-landing {
+    height: 60vh;
+    width: auto;
+    background-image: url('https://lisasaidso.co.nz/wp-content/uploads/2015/08/lss_cigs_491793-850x567.jpg');
+    text-align: center;
+}
+
+#people-landing {
+    height: 60vh;
+    width: auto;
+    background-image: url('https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/kids-and-teens-health/girlvapinghero.ashx?h=500&la=en&mh=500&mw=1300&w=1297&hash=ADEA29067224D4F01289775B2D94CF9D1F2814BC');
+    text-align: center;
+    background-position-y: -100px;
+}
+
+#resources-landing {
+    height: 60vh;
+    width: auto;
+    background-image: url('https://d341ezm4iqaae0.cloudfront.net/assets/2020/06/30160014/librarian-scaled.jpg');
+    text-align: center;
+}
+
+#about-landing {
+    height: 60vh;
+    width: auto;
+    background-image: url('pictures/aboutme.jpg');
+    text-align: center;
+}
+
+.navigation-bar {
+    background-color: #14281D;
+    height: 125px;
+    width: auto;
+    padding: 0px;
+    text-align: center
+}
+
+.logo {
+    border: 2px solid black;
+    background-size: cover;
+    width: auto;
+    height: 90px;
+    border-radius: 200px;
+    position: relative;
+    margin-right: 75px;
+    bottom: 7px;
+}
+
+.nav-links {
+    color: #F1F5F2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    border: 1px solid #F1F5F2;
+    display: inline-block;
+    margin-top: 85px;
+    margin-right: 100px;
+}
+
+.content-container {
+    background-color: #C2A878;
+}
+
+#about-content {
+    overflow: hidden;
+    border-bottom: none;
+}
+
+#hobbies-content {
+    overflow:hidden;
+    background-color: #C2A878;
+    border-top:none;
+    text-align: center;
+}
+
+#hobbies {
+    color: #F1F5F2;
+    margin-left: 725px;
+    text-align: left;
+}
+
+#home-content {
+    overflow: hidden;
+    height: 370px
+}
+
+#learn-content {
+    overflow: hidden;
+    text-align: center;
+    height: 480px
+}
+
+#learn-paragraphs-container {
+    border: none;
+    width: 700px;
+    display: inline-block;
+}
+
+#people-content {
+    text-align: left;
+    height: 500px;
+    overflow: hidden;
+}
+
+#people-paragraphs-container {
+    border: none;
+    display: inline-block;
+    width: 600px;
+    position: relative;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#resources-content {
+    overflow: hidden;
+}
+
+ul {
+    font-family: 'STIX Two Math', serif;
+    color: black;
+    float: left;
+}
+
+#resources-list {
+    color: #F1F5F2;
+    position: relative;
+    left: 675px
+}
+
+li {
+    margin: 10px;
+}
+
+.resources {
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    color: #F1F5F2;
+}
+
+#favorites {
+    margin-left: 200px;
+    color: #F1F5F2;
+}
+
+#smoking-facts {
+    color: #F1F5F2;
+    position: relative;
+    left: 470px
+}
+
+#about-img {
+    border: 2px solid black;
+    height: 250px;
+    width: auto;
+    float: right;
+    margin-right: 300px;
+}
+
+#home-img1 {
+    height: 300px;
+    width: auto;
+    position: relative;
+    right: 700px;
+    bottom: 65px;
+}
+
+#home-img2 {
+    height: 300px;
+    width: auto;
+    position: relative;
+    bottom: 65px;
+    left: 60px
+}
+
+#learn-img1 {
+    height: 250px;
+    width: auto;
+    border: 1px solid black;
+    position: relative;
+    right: 600px;
+    bottom: 325px
+}
+
+#learn-img2 {
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 585px;
+    left: 600px;
+}
+
+#people-img {
+    height: 300px;
+    position: relative;
+    left: 800px;
+    bottom: 350px;
+    border: 1px solid black
+}
+
+#upenn-img {
+    height: 200px;
+    position: relative;
+    right: 300px;
+    bottom: 40px;
+}
+
+#smokefree-img {
+    position: relative;
+    right: 280px;
+    bottom: 65px
+}
+
+#cdc-img {
+    position: relative;
+    left: 100px;
+    bottom: 55px;
+}
+
+#nih-img {
+    position: relative;
+    left: 115px;
+    bottom: 30px
+}
+
+#chop-img {
+    height: 200px;
+    position: relative;
+    left: 500px;
+}
