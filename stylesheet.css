@@ -110,10 +110,10 @@ nav a {
 }
 
 .cohort-year {
-    text-align: center;
-    color: #9E3A3E;
-    text-shadow: none;
-    font-size: 3.5em;
+    text-align: center !important;
+    color: #9E3A3E !important;
+    text-shadow: none !important;
+    font-size: 3.5em !important;
 }
 
 .student-project {
@@ -176,9 +176,9 @@ nav a {
         font-size: 1.2rem;
     }
     .cohort-year h2 {
-        text-align: center;
-        color: #9E3A3E;
-        text-shadow: none;
-        font-size: 1em;
+        text-align: center !important;
+        color: #9E3A3E !important;
+        text-shadow: none !important;
+        font-size: 1em !important;
     }
 }
