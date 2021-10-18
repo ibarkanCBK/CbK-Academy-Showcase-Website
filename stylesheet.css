@@ -109,7 +109,7 @@ nav a {
     padding: 3% 4% 3% 4%;
 }
 
-.cohort-year {
+.cohort-year h2 {
     text-align: center;
     color: #9E3A3E;
     text-shadow: none;
@@ -175,7 +175,7 @@ nav a {
     .student-project h3 {
         font-size: 1.2rem;
     }
-    .cohort-year {
+    .cohort-year h2 {
         text-align: center;
         color: #9E3A3E;
         text-shadow: none;
